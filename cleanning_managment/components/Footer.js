@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer id='footer' className="max-w-screen h-screen bg-[#121010] text-white px-5 py-7 text-sm ">
+    <footer id='footer' className="max-w-screen h-screen bg-[#303B36] text-[#FDFBF1] px-5 py-15 text-sm ">
       <div>
-        <h1 className="text-3xl md:text-6xl font-semibold leading-tight mb-4 px-22 py-15 ">
+        <h1 className="text-3xl md:text-8xl font-semibold leading-tight mb-4 px-22 py-12 ">
           WE WOULD LOVE <br /> TO HEAR FROM YOU.
         </h1>
       </div>
@@ -19,7 +19,7 @@ const Footer = () => {
             href="mailto:contact@monopo.london"
             className="underline hover:text-gray-400 transition"
           >
-            contact@monopo.london →
+            manit@ac.in →
           </a>
         </div>
 
@@ -27,15 +27,9 @@ const Footer = () => {
         <div>
           <h4 className="font-semibold mb-2 text-gray-400">OUR ADDRESS</h4>
           <p>
-            Unit D104<br />
-            116 Commercial Street<br />
-            London, E1 6NF<br />
-            United Kingdom<br />
-            <br />
-            VAT: 319656475<br />
-            Company no. 11843590<br />
-            Registered in England & Wales
-          </p>
+            MANIT BHOPAl<br />
+            Madhya Pradesh, India <br />
+            </p>
         </div>
 
         {/* Follow Us */}
@@ -51,20 +45,18 @@ const Footer = () => {
 
         {/* Navigation Links */}
         <div>
-          <h4 className="font-semibold mb-2 text-gray-400">HOME</h4>
+          <h4 className="font-semibold mb-2 text-gray-400">Navigation</h4>
           <ul className="space-y-1">
-            <li>WORK</li>
-            <li>SERVICES</li>
-            <li>TEAM</li>
-            <li>CONTACT</li>
-            <li>PRESS & NEWS</li>
-            <li>PRIVACY POLICY</li>
+            <li>Home</li>
+            <li>Report</li>
+            <li>Contac :</li>
+            <li>+91 98765 43210</li>
           </ul>
         </div>
       </div>
 
-      <div className="border-t border-gray-700 mt-12 pt-6 text-center text-gray-500 text-xs">
-        &copy; {new Date().getFullYear()} Get me A Chai – Fund your projects with chai.
+      <div className=" border-t bg-[#303B36] border-[#FDFBF1] pt-6 text-center text-[#FDFBF1] text-xs">
+        &copy; {new Date().getFullYear()} Cleaning Management
       </div>
     </footer>
   );

@@ -33,7 +33,7 @@ export default function Testimonials() {
     };
 
     return (
-        <section className="max-w-screen bg-zinc-900 text-white px-6 md:px-10 py-15">
+        <section className="max-w-screen bg-#0E2517  text-#0E2517  px-6 md:px-10 py-15">
             <div className="max-w-screen mx-auto px-6 py-20">
                 {/* Header */}
                 <div className="flex items-center mb-8 space-x-4 my-10 mb-15">
@@ -42,7 +42,7 @@ export default function Testimonials() {
                         {testimonials.map((_, index) => (
                             <span
                                 key={index}
-                                className={`w-4 h-4 rounded-full ${index === current ? 'bg-white' : 'bg-zinc-600'
+                                className={`w-4 h-4 rounded-full ${index === current ? 'bg-#FDFBF1 border border-#FDFBF1' : 'bg-zinc-600'
                                     }`}
                             ></span>
                         ))}
@@ -60,14 +60,14 @@ export default function Testimonials() {
                 {/* Navigation Arrows */}
                 <div className="mt-8 flex justify-end space-x-4">
                     <button
-                        onClick={prevSlide}
-                        className="bg-white text-zinc-900 p-2 rounded-full hover:bg-gray-300"
+                        onClick={prevSlide} 
+                        className="bg-#0E2517 border border-#FDFBF1 text-#FDFBF1 p-2 rounded-full hover:bg-gray-300"
                     >
                         <FaArrowLeft />
                     </button>
                     <button
                         onClick={nextSlide}
-                        className="bg-white text-zinc-900 p-2 rounded-full hover:bg-gray-300"
+                        className="bg-#0E2517 border border-#FDFBF1 text-#FDFBF1  p-2 rounded-full hover:bg-gray-300"
                     >
                         <FaArrowRight />
                     </button>

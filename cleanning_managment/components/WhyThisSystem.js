@@ -56,9 +56,9 @@ export default function WhyThisSystem() {
     }
 
     return (
-        <div className="flex h-screen items-center justify-center bg-gray-200 px-2">
+        <div className="flex h-screen items-center justify-center bg-#FDFBF1 px-2">
             {/* Left Section (Static) */}
-            <div className="text-8xl font-normal text-black px-35 py-8 text-center md:text-left">
+            <div className="text-8xl font-normal text-#0E2517  px-35 py-8 text-center md:text-left">
                 Why This
                 <br/>
                 System?
@@ -76,7 +76,7 @@ export default function WhyThisSystem() {
                             transition={{ duration: 0.6 }}
                             className="absolute w-full p-8  rounded-2xl shadow-lg"
                         >
-                            <h2 className="text-2xl font-semibold text-black mb-2">
+                            <h2 className="text-2xl font-semibold text-#0E2517  mb-2">
                                 {slides[index].title}
                             </h2>
                             <p className="text-gray-600 mb-4">
@@ -85,7 +85,7 @@ export default function WhyThisSystem() {
                             <div className="flex justify-center py-4">
                                 <button 
                                     onClick={() => handleButtonClick(slides[index].action)}
-                                    className="px-20 py-2 border border-gray-700 rounded-full hover:bg-gray-800 hover:text-white transition"
+                                    className="px-20 py-2 text-[#0E2517] border border-[#0E2517] rounded-full font-semibold hover:bg-gray-800 hover:text-white transition"
                                 >
                                     {slides[index].button}
                                 </button>

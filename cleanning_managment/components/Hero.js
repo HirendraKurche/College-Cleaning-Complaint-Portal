@@ -1,6 +1,6 @@
 export default function HeroSection() {
     return (
-      <div className="bg-zinc-900 text-white min-h-screen flex flex-col items-center justify-center px-4 ">
+      <div className="bg-[#FDFBF1] text-[#0E2517] min-h-screen flex flex-col items-center justify-center px-4 ">
         {/* Hero Heading */}
         <h1 className="text-center font-serif text-[40px] md:text-[64px] font-semibold leading-tight mb-6">
           Keeping Our Campus Clean,<br className="hidden md:block" />

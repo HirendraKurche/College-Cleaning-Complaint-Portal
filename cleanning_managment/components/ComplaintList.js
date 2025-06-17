@@ -25,16 +25,16 @@ export default function ComplaintList() {
     ];
 
     return (
-        <section id="complaint-list" className="bg-zinc-900 py-16 px-6">
+        <section id="complaint-list" className="bg-#FDFBF1 py-16 px-6">
             <div className="max-w-7xl mx-auto">
                 {/* Headings */}
-                <h2 className=" text-white text-4xl font-bold mb-2">Complaint Lists</h2>
-                <p className="text-white text-lg mb-6">Recent Complaints</p>
+                <h2 className=" text-#0E2517 text-4xl font-bold mb-2">Complaint Lists</h2>
+                <p className="text-#0E2517 text-lg mb-6">Recent Complaints</p>
 
                 {/* Filters */}
                 <div className="flex gap-4 mb-8">
-                    <button className="bg-gray-600 text-white px-4 py-2 rounded-full text-sm">Filters</button>
-                    <button className="bg-gray-600 text-white px-4 py-2 rounded-full text-sm">Filters</button>
+                    <button className="bg-#FDFBF1 border border-#0E2517 text-#0E2517  px-4 py-2 rounded-full text-sm">Filters</button>
+                    <button className="bg-#FDFBF1 border border-#0E2517 text-#0E2517  px-4 py-2 rounded-full text-sm">Filters</button>
                 </div>
 
                 {/* Complaint Cards */}
@@ -42,7 +42,7 @@ export default function ComplaintList() {
                     {complaints.map((complaint) => (
                         <div
                             key={complaint.id}
-                            className="bg-white rounded-3xl shadow-md overflow-hidden p-4"
+                            className="bg-#FDFBF1 rounded-3xl shadow-md overflow-hidden p-4"
                         >
                             {/* Image Placeholder */}
                             <div className="w-full h-52 bg-zinc-900 rounded-2xl mb-4"></div>
