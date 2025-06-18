@@ -114,6 +114,7 @@ export default function Dashboard() {
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-6 py-3 text-left text-xs font-medium text-[#0E2517] uppercase tracking-wider">Image</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-[#0E2517] uppercase tracking-wider">Title</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-[#0E2517] uppercase tracking-wider">Location</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-[#0E2517] uppercase tracking-wider">Status</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-[#0E2517] uppercase tracking-wider">Date</th>
@@ -128,6 +129,7 @@ export default function Dashboard() {
                         <img src={complaint.image} alt="Complaint" className="w-16 h-16 object-cover rounded" />
                       )}
                     </td>
+                    <td className="px-6 py-4 whitespace-nowrap">{complaint.title || "-"}</td>
                     <td className="px-6 py-4 whitespace-nowrap">{complaint.location}</td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <span className={`px-2 py-1 rounded-full text-xs font-medium ${
