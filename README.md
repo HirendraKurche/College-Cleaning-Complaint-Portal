@@ -30,7 +30,7 @@ cleanWebMain/
 - **Responsive Design**: Works on desktop and mobile browsers
 
 ### Mobile Application ([cleancampusAPP/](cleancampusAPP/))
-- **Native Mobile Experience**: Optimized Flutter app for iOS and Android
+- **Native Mobile Experience**: Optimized Flutter app Android
 - **Camera Integration**: Direct photo capture for issue reporting
 - **Offline Capability**: Report issues even without internet connection
 - **Push Notifications**: Real-time updates on complaint status
