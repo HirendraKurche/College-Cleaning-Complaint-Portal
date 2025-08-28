@@ -79,7 +79,7 @@ cleanWebMain/
    npm run dev
    ```
 
-5. **Open in browser**: [http://localhost:3000](http://localhost:3000)
+5. **Open in browser**: http://localhost:3000
 
 ### Mobile Application Setup
 
@@ -164,13 +164,12 @@ cleanWebMain/
 ## 🌐 Deployment
 
 ### Web Application
-- **Platform**: Vercel (recommended) or Netlify
+- **Platform**: Vercel 
 - **Build Command**: `npm run build`
 - **Environment Variables**: Configure Firebase keys in deployment platform
 
 ### Mobile Application
-- **Android**: Google Play Store
-- **iOS**: Apple App Store
+- **Android**: Apk
 - **Build**: Use Flutter build commands for release builds
 
 ## 🔄 Development Workflow
@@ -184,9 +183,6 @@ cleanWebMain/
 
 - [ ] **Real-time Notifications**: Push notifications for status updates
 - [ ] **Analytics Dashboard**: Admin analytics and reporting
-- [ ] **Geolocation**: GPS-based location tagging
-- [ ] **Multi-language Support**: Internationalization
-- [ ] **Dark Mode**: Theme switching capability
 - [ ] **API Integration**: Third-party service integrations
 
 ## 🤝 Contributing
@@ -199,8 +195,7 @@ cleanWebMain/
 
 ## 📞 Support & Contact
 
-- **Email**: [manit@ac.in](mailto:manit@ac.in)
-- **Institution**: MANIT Bhopal, Madhya Pradesh, India
+- **Email**: [Hirendra Kurche](hirendrakurche423@gmail.com)
 - **Project Type**: Campus Management System
 
 ## 📄 License
