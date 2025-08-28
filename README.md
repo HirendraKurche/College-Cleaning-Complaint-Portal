@@ -49,7 +49,7 @@ cleanWebMain/
 - **Framework**: Flutter
 - **State Management**: Provider/Bloc
 - **Backend**: Firebase (shared with web app)
-- **Platform**: Cross-platform (iOS & Android)
+- **Platform**: Cross-platform (PC & Android)
 
 ## 📱 Quick Start
 
