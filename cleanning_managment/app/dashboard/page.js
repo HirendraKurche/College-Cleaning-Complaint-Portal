@@ -125,8 +125,8 @@ export default function Dashboard() {
                 {complaints.map((complaint) => (
                   <tr key={complaint.id} className="hover:bg-gray-50 transition">
                     <td className="px-6 py-4 whitespace-nowrap">
-                      {complaint.image && (
-                        <img src={complaint.image} alt="Complaint" className="w-16 h-16 object-cover rounded" />
+                      {complaint.imageBefore && (
+                        <img src={complaint.imageBefore} alt="Complaint" className="w-16 h-16 object-cover rounded" />
                       )}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap">{complaint.title || "-"}</td>
